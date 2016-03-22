@@ -10,6 +10,9 @@ h3{
 	color: grey;
 }
 
+.lblink{
+  color: lightgrey;
+}
 /******** pure CSS accordion*******/
 
 .tab-group {
