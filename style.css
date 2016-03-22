@@ -11,7 +11,9 @@ h3{
 }
 
 .lblink{
-  color: lightgrey;
+  text-align: left;
+  color: green;
+  
 }
 /******** pure CSS accordion*******/
 
