@@ -1,5 +1,7 @@
 /* main styles for colors 1 */
 body {
+	display: flex;
+	flex-direction: column;
 	background: #64DC81;
 	font-family: sans-serif;
 	text-align: center;
@@ -13,6 +15,8 @@ h3{
 .lblink{
   text-align: left;
   color: green;
+  margin-top: auto;
+  padding-top: 20px;
   
 }
 /******** pure CSS accordion*******/
@@ -133,4 +137,34 @@ input:checked ~ .modaloverlay {
 	z-index: 800;
 }
 
+/* flexbox styles */
 
+.container {
+	display: flex;
+	background: white;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 1em;
+}
+
+.item {
+	background: purple;
+	border: solid yellow 2px;
+	padding: 2em;
+	margin: .5em;
+	border-radius: 10px;
+	flex: 1 200px;
+}
+
+/*.item1 {
+	margin-right: auto; 
+}*/
+
+
+
+.item4{
+	flex-grow: 5;
+}
+.item2 {
+	flex-grow: 2;
+}
